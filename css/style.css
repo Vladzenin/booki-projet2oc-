@@ -121,7 +121,7 @@ a {
     margin-bottom: 5px;
 }
 
-/* partie footer */
+/***************** partie footer *********************/
 
 footer { 
     border-top: 1px dashed #000;
@@ -138,6 +138,44 @@ footer {
     font-size: 20px;
     padding: 50px 0 100px;
 }
+
+.bloc {
+    width: 25%;
+    margin: 0 30px;
+}
+
+/* À propos */
+.footer-info h3,
+.footer-services h3,
+.footer-assitance h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.footer-info p {
+    padding: 5px 0;
+}
+
+/* Services */
+
+.liste-services,
+.liste-info,
+.liste-assistance {
+    list-style-type: none;
+}
+.liste-services li {
+    padding: 2px 0;
+}
+.liste-services a {
+    text-decoration: none;
+    color: #333;
+}
+.liste-service a:hover {
+    color: rgb(3,3,3);
+}
+
+
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
