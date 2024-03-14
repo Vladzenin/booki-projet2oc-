@@ -121,7 +121,23 @@ a {
     margin-bottom: 5px;
 }
 
+/* partie footer */
 
+footer { 
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #f1f1f1;
+    color: #333;
+}
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 100px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
