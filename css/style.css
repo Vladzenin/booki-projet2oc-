@@ -195,9 +195,13 @@ a {
     text-decoration: underline;
 }
 
+.menu-hebergement: hover {
+    color: blue;
+}
+
 /***************** partie footer *********************/
 
-footer { 
+.footer { 
     border-top: 1px dashed #000;
     width: 100%;
     background: #f1f1f1;
@@ -232,11 +236,7 @@ footer {
 
 /* Services */
 
-.liste-services,
-.liste-info,
-.liste-assistance {
-    list-style-type: none;
-}
+
 .liste-services li {
     padding: 2px 0;
 }
