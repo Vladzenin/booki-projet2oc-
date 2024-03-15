@@ -57,8 +57,45 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
-/****** slogan *****/
+/****** search bar *****/
+.search-bar {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
 
+.search-input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 100%;
+    border: none;
+    background: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-input:focus,
+.search-input:hover {
+    border-color: #777;
+}
+
+.search-button:focus,
+.search-button:hover {
+    background: #f0f0f0;
+}
     
 
 
