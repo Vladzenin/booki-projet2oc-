@@ -59,7 +59,8 @@ a {
 }
 /****** slogan *****/
 .slogan h1 {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /****** Hebergements And Populaires ***********/
