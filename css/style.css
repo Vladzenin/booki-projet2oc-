@@ -58,10 +58,9 @@ a {
     color: var(--main-bg-color)
 }
 /****** slogan *****/
-.slogan h1 {
-    font-size: 25px;
-    font-weight: bold;
-}
+
+    
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
