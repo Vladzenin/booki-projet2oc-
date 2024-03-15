@@ -57,6 +57,10 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
+/****** slogan *****/
+.slogan h1 {
+    font-size: 20px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
