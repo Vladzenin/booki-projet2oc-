@@ -133,19 +133,6 @@ a {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 2em;
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    display: block;
-}
-
-.main-header h1 {
-    margin: 0.5em 0;
-    font-size: 1.5em;
-}
-
 .main-header p {
     margin-bottom: 1em;
     color: #555;
