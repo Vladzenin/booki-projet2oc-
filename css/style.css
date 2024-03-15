@@ -195,7 +195,7 @@ a {
     text-decoration: underline;
 }
 
-.menu-hebergement: hover {
+.menu-hebergement :hover {
     color: blue;
 }
 
