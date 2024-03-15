@@ -197,10 +197,12 @@ a {
 
 .menu-hebergement:hover {
    color: blue;
+   border-top: 2px solid;
+   
 }
-.menu-hebergement {
+
     border-top: 2px solid;
-}
+
 /***************** partie footer *********************/
 
 .footer { 
