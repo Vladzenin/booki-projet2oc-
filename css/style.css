@@ -97,8 +97,29 @@ a {
     background: #f0f0f0;
 }
 
-
-
+/********** hebergements a marseille**************/
+.accommodations {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .button-more {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
 
 /************ filter bar ***********/
 .filter-bar {
