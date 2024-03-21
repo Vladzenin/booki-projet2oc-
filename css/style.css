@@ -171,8 +171,9 @@ a {
 }
 
 .site-header .logo {
-    height: 40px; /* taille logo */
+    height: 19px; /* taille logo */
 }
+
 
 .site-nav ul {
     list-style: none;
@@ -198,7 +199,7 @@ a {
 .menu-hebergement:hover {
    color: blue;
    border-top: 2px solid;
-   
+
 }
 
     border-top: 2px solid;
