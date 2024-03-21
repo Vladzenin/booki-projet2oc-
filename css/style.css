@@ -103,7 +103,6 @@ a {
     margin: auto;
     text-align: center;
   }
-  
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +110,26 @@ a {
     justify-content: center;
   }
   
+  .card {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 300px; 
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
   .button-more {
     background-color: #007BFF;
     color: white;
