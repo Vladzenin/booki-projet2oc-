@@ -202,7 +202,17 @@ a {
 
 }
 
-    border-top: 2px solid;
+/********** boxtop ***************/
+
+.boxtop h2 {
+    size: 22px;
+    
+}
+
+.boxtop p {
+    size: 16px;
+    
+}
 
 /***************** partie footer *********************/
 
