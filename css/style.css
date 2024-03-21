@@ -96,6 +96,69 @@ a {
 .search-button:hover {
     background: #f0f0f0;
 }
+
+
+
+
+/************ filter bar ***********/
+.filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    margin: 20px;
+  }
+  
+  .filter-bar span {
+    font-weight: bold;
+  }
+  
+  .filter-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  
+  .filter-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .icon {
+    /* Ajoutez des styles pour les icônes ici. Par exemple: */
+    width: 16px;
+    height: 16px;
+    /* Vous devrez remplacer ceci par le chemin correct pour vos images d'icônes. */
+  }
+  
+  .icon-economical {
+    background: url('icon-economical.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-family {
+    background: url('icon-family.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-romantic {
+    background: url('icon-romantic.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+  .icon-hidden-gems {
+    background: url('icon-hidden-gems.png') no-repeat center center;
+    background-size: contain;
+  }
+  
+
     
 
 
@@ -211,7 +274,7 @@ a {
 
 .boxtop p {
     size: 16px;
-    
+
 }
 
 /***************** partie footer *********************/
