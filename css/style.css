@@ -265,66 +265,34 @@ a {
 
 }
 
-/********** boxtop ***************/
-
-.boxtop h2 {
-    size: 22px;
-    
-}
-
-.boxtop p {
-    size: 16px;
-
-}
-
 /***************** partie footer *********************/
 
-.footer { 
-    border-top: 1px dashed #000;
-    width: 100%;
-    background: #f1f1f1;
-    color: #333;
-}
-.contenu-footer {
-    width: 1200px;
-    margin: 0 auto;
+.site-footer {
+    background-color: #f2f2f2; /* Choisissez la couleur appropriée */
+    padding: 20px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    font-size: 20px;
-    padding: 50px 0 100px;
-}
-
-.bloc {
-    width: 25%;
-    margin: 0 30px;
-}
-
-/* À propos */
-.footer-info h3,
-.footer-services h3,
-.footer-assistance h3 {
-    font-size: 25px;
-    padding-bottom: 20px;
-}
-
-.footer-info p {
-    padding: 5px 0;
-}
-
-/* Services */
-
-
-.liste-services li {
-    padding: 2px 0;
-}
-.liste-services a {
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li a {
+    color: #333; /* Choisissez la couleur appropriée */
     text-decoration: none;
-    color: #333;
-}
-.liste-service a:hover {
-    color: rgb(3,3,3);
-}
+    line-height: 2.5;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
 
 
 
