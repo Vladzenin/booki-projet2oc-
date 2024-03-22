@@ -105,7 +105,7 @@ a {
   }
   
   .accommodations-section h2 {
-    color: #003366; /* ou la couleur appropriée */
+    color: #000000; /* ou la couleur appropriée */
     margin-bottom: 20px;
   }
   
@@ -117,12 +117,15 @@ a {
   }
   
   .accommodation-card {
-    width: calc(33.333% - 20px); /* Trois par ligne, ajuster l'espacement */
+    width: 250.33px;
+    height: 207.25px;
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
   }
   
   .accommodation-card:hover {
