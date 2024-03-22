@@ -97,7 +97,7 @@ a {
   .filters-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Ajustez cet espace comme nécessaire */
+    gap: 20px; /* Ajustez cet espace comme nécessaire */
   }
   
   .filter-label {
@@ -115,10 +115,10 @@ a {
   .filter-button:hover,
   .filter-button:focus,
   .filter-button.active {
-    background-color: #007bff; /* Couleur de fond pour l'élément actif ou survolé */
+    background-color: #DEEBFF;
+    ; /* Couleur de fond pour l'élément actif ou survolé */
     color: white; /* Couleur du texte pour l'élément actif ou survolé */
-    border-color: #0056b3; /* Couleur de la bordure pour l'élément actif ou survolé */
-  }
+    
   
   .filter-button i {
     margin-right: 5px; /* Espacement entre l'icône et le texte */
@@ -129,7 +129,7 @@ a {
     font-size: 1rem; /* Taille de l'icône */
   }
   
-  
+  #DEEBFF
   
   
 
