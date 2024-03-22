@@ -57,45 +57,57 @@ a {
 .neutral-star {
     color: var(--main-bg-color)
 }
-/****** search bar *****/
-.search-bar {
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-
-.search-input {
-    width: 100%;
+/****** search bar and filter *****/
+.search-and-filters {
+    max-width: 1340px;
+    height: 281px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+  }
+  
+  .search-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search-container input {
+    flex-grow: 1;
     padding: 10px;
-    padding-right: 40px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    outline: none;
-}
-
-.search-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 40px;
-    height: 100%;
+  }
+  
+  .search-container button {
+    padding: 10px 20px;
+    background-color: #0066ff;
+    color: white;
     border: none;
-    background: #fff;
-    border-radius: 0 20px 20px 0;
     cursor: pointer;
-    outline: none;
-}
-
-.search-input:focus,
-.search-input:hover {
-    border-color: #777;
-}
-
-.search-button:focus,
-.search-button:hover {
-    background: #f0f0f0;
-}
+  }
+  
+  .filters button {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filters button:last-child {
+    margin-right: 0;
+  }
+  
+  .lodging-info {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  
+  
+  
+  
 
 /********** hebergements a marseille**************/
 
