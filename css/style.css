@@ -76,7 +76,7 @@ a {
   
   .search-bar {
     display: flex;
-    gap: 15px; /* Ajustez en fonction de votre design */
+    gap: 10px; /* Ajustez en fonction de votre design */
   }
   
   .search-bar input {
@@ -86,7 +86,7 @@ a {
   }
   
   .search-bar button {
-    padding:  0,20px;
+    padding:  10,20px;
     border: none;
     background-color: #007BFF;
     color: white;
