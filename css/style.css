@@ -100,32 +100,40 @@ a {
 /********** hebergements a marseille**************/
 
 .accommodations-section {
-    text-align: left;
-    
+    text-align: center;
+    padding: 20px;
   }
   
   .accommodations-section h2 {
-    color: #000000; /* ou la couleur appropriée */
-    margin-bottom: 5px;
+    color: #003366; /* ou la couleur appropriée */
+    margin-bottom: 30px; /* Ajusté pour le padding de la grille */
   }
   
   .accommodations-grid {
+    max-width: 871px;
+    max-height: 614px;
+    margin: auto; /* Centrer la grille */
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 5px;
+    justify-content: flex-start; /* aligne les éléments au début pour le padding */
+    gap: 30px;
+    border-radius: 15px;
+    background-color: #f2f2f2; /* Ou toute autre couleur de fond souhaitée */
+    /* Ajoutez une ombre portée ou tout autre style supplémentaire ici */
   }
   
   .accommodation-card {
-    width: 250.33px;
-    height: 207.25px;
+    width: 250.33px; /* Largeur spécifiée */
+    height: 207.25px; /* Hauteur spécifiée */
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 20px; /* Rayon de la carte */
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
     display: flex;
     flex-direction: column;
+    justify-content: space-between; /* Ajuste le contenu à l'intérieur de la carte */
   }
   
   .accommodation-card:hover {
@@ -133,9 +141,9 @@ a {
   }
   
   .accommodation-image img {
-    width: 250.33px;
-    height: 124px;
-    display: block;
+    width: 250.33px; /* Largeur spécifiée */
+    height: 124px; /* Hauteur spécifiée */
+    object-fit: cover; /* Assure que l'image couvre la zone sans être déformée */
   }
   
   .accommodation-info {
@@ -152,7 +160,9 @@ a {
     font-weight: bold;
   }
   
-  
+  .rating {
+    /* style pour les étoiles */
+  }
   
   .show-more-button {
     background-color: #007BFF;
