@@ -112,8 +112,8 @@ a {
   .accommodations-grid {
     max-width: 871px;
     max-height: 614px;
-    margin: auto; /* Centrer la grille */
-    padding: 30px;
+    
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start; /* aligne les éléments au début pour le padding */
