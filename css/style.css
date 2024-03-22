@@ -58,53 +58,59 @@ a {
     color: var(--main-bg-color)
 }
 /****** search bar and filter *****/
-.search-and-filters {
+.search-filters-container {
     max-width: 1340px;
     height: 281px;
     margin: auto;
-    padding: 20px;
+    padding: 35px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 35px;
+    align-items: center; /* Centre les éléments verticalement */
   }
   
-  .search-container {
+  h1 {
+    margin: 0;
+    color: #000; /* La couleur de votre choix */
+  }
+  
+  .search-bar {
     display: flex;
-    gap: 10px;
+    gap: 10px; /* Ajustez en fonction de votre design */
   }
   
-  .search-container input {
-    flex-grow: 1;
+  .search-bar input {
     padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
   }
   
-  .search-container button {
+  .search-bar button {
     padding: 10px 20px;
-    background-color: #0066ff;
-    color: white;
     border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
     cursor: pointer;
   }
   
   .filters button {
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #f0f0f0;
+    padding: 10px 20px;
     border: none;
-    cursor: pointer;
+    border-radius: 20px;
+    background-color: #e0e0e0; /* Gris clair pour les filtres non sélectionnés */
+    margin: 0 5px;
   }
   
-  .filters button:last-child {
-    margin-right: 0;
+  .filters button.active {
+    background-color: #007BFF; /* Bleu pour le filtre actif */
+    color: white;
   }
   
   .lodging-info {
     color: #666;
     font-size: 0.9em;
   }
-  
-  
   
   
   
