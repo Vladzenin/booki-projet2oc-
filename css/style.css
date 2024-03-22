@@ -98,105 +98,76 @@ a {
 }
 
 /********** hebergements a marseille**************/
-.accommodations {
-    width: 80%;
-    margin: auto;
+
+.accommodations-section {
     text-align: center;
-  }
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+    padding: 20px;
   }
   
-  .card {
+  .accommodations-section h2 {
+    color: #003366; /* ou la couleur appropriée */
+    margin-bottom: 20px;
+  }
+  
+  .accommodations-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .accommodation-card {
+    width: calc(33.333% - 20px); /* Trois par ligne, ajuster l'espacement */
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 300px; 
+    transition: transform 0.3s ease;
+  }
   
-  .card img {
+  .accommodation-card:hover {
+    transform: translateY(-5px); /* Effet de survol léger */
+  }
+  
+  .accommodation-image img {
     width: 100%;
-    height: auto;
     display: block;
   }
   
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-
-  .button-more {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-  }
-
-/************ filter bar ***********/
-.filter-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  .accommodation-info {
     padding: 10px;
-    background-color: #f1f1f1;
-    border-radius: 25px;
-    margin: 15px;
   }
   
-  .filter-bar span {
+  .accommodation-info h3 {
+    color: #003366; /* ou la couleur appropriée */
+    margin: 0;
+  }
+  
+  .accommodation-info p {
+    color: #666;
     font-weight: bold;
   }
   
-  .filter-button {
-    padding: 10px 20px;
+  
+  
+  .show-more-button {
+    background-color: #007BFF;
+    color: white;
     border: none;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
   }
   
-  .filter-button:hover {
-    background-color: #e0e0e0;
+  .show-more-button:hover {
+    background-color: #0056b3; /* Un ton plus foncé pour l'effet de survol */
   }
   
-  .icon {
-    /* Ajoutez des styles pour les icônes ici. Par exemple: */
-    width: 16px;
-    height: 16px;
-    /* Vous devrez remplacer ceci par le chemin correct pour vos images d'icônes. */
-  }
+ 
   
-  .icon-economical {
-    background: url('icon-economical.png') no-repeat center center;
-    background-size: contain;
-  }
   
-  .icon-family {
-    background: url('icon-family.png') no-repeat center center;
-    background-size: contain;
-  }
-  
-  .icon-romantic {
-    background: url('icon-romantic.png') no-repeat center center;
-    background-size: contain;
-  }
-  
-  .icon-hidden-gems {
-    background: url('icon-hidden-gems.png') no-repeat center center;
-    background-size: contain;
-  }
   
 
     
