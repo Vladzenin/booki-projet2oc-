@@ -94,23 +94,41 @@ a {
     cursor: pointer;
   }
   
-  .filters button {
-    padding: 10px 20px;
-    border: none;
+  .filters-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Ajustez cet espace comme nécessaire */
+  }
+  
+  .filter-label {
+    font-weight: bold;
+  }
+  
+  .filter-button {
+    padding: 10px 15px;
+    border: 2px solid transparent; /* Masque la bordure mais garde l'espace pour le focus */
     border-radius: 20px;
-    background-color: #e0e0e0; /* Gris clair pour les filtres non sélectionnés */
-    margin: 0 5px;
+    background-color: #f0f0f0; /* Couleur de fond par défaut des boutons */
+    transition: background-color 0.3s, border-color 0.3s;
   }
   
-  .filters button.active {
-    background-color: #007BFF; /* Bleu pour le filtre actif */
-    color: white;
+  .filter-button:hover,
+  .filter-button:focus,
+  .filter-button.active {
+    background-color: #007bff; /* Couleur de fond pour l'élément actif ou survolé */
+    color: white; /* Couleur du texte pour l'élément actif ou survolé */
+    border-color: #0056b3; /* Couleur de la bordure pour l'élément actif ou survolé */
   }
   
-  .lodging-info {
-    color: #666;
-    font-size: 0.9em;
+  .filter-button i {
+    margin-right: 5px; /* Espacement entre l'icône et le texte */
   }
+  
+  /* Style pour les icônes avec FontAwesome */
+  .fa {
+    font-size: 1rem; /* Taille de l'icône */
+  }
+  
   
   
   
@@ -130,8 +148,6 @@ a {
   .accommodations-grid {
     max-width: 871px;
     max-height: 614px;
-    
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start; /* aligne les éléments au début pour le padding */
@@ -195,7 +211,8 @@ a {
     background-color: #0056b3; /* Un ton plus foncé pour l'effet de survol */
   }
   
- 
+
+
   
   
   

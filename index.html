@@ -12,6 +12,8 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -32,12 +34,14 @@
               <input type="text" placeholder="Marseille, France" aria-label="Rechercher un hébergement à Marseille">
               <button type="button">Rechercher</button>
             </div>
-            <div class="filters">
-              <button type="button">Économique</button>
-              <button type="button">Familial</button>
-              <button type="button">Romantique</button>
-              <button type="button">Nos pépites</button>
-            </div>
+            <div class="filters-container">
+                <span class="filter-label">Filtres</span>
+                <button class="filter-button active"><i class="fa fa-euro-sign"></i> Économique</button>
+                <button class="filter-button"><i class="fa fa-users"></i> Familial</button>
+                <button class="filter-button"><i class="fa fa-heart"></i> Romantique</button>
+                <button class="filter-button"><i class="fa fa-gem"></i> Nos pépites</button>
+              </div>
+              
             <p class="lodging-info">Plus de 500 logements sont disponibles dans cette ville</p>
           </div>
            
