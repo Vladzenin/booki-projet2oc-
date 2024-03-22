@@ -153,17 +153,14 @@ a {
   
   .accommodation-info h3 {
     color: #000000; /* ou la couleur appropriée */
-    margin: 0;
+    margin: 5px;
   }
   
   .accommodation-info p {
     color: #666;
     ;
   }
-  
-  .rating {
-    /* style pour les étoiles */
-  }
+
   
   .show-more-button {
     background-color: #007BFF;
