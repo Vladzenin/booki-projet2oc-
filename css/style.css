@@ -97,7 +97,7 @@ a {
   .filters-container {
     display: flex;
     align-items: center;
-    gap: 20px; /* Ajustez cet espace comme nécessaire */
+    gap: 15px; /* Ajustez cet espace comme nécessaire */
   }
   
   .filter-label {
