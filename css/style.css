@@ -132,6 +132,7 @@ a {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
     display: flex;
+    padding: 0,0,15px,0;
     flex-direction: column;
     justify-content: space-between; /* Ajuste le contenu à l'intérieur de la carte */
   }
