@@ -106,14 +106,14 @@ a {
   
   .accommodations-section h2 {
     color: #000000; /* ou la couleur appropriée */
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
   
   .accommodations-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
+    gap: 5px;
   }
   
   .accommodation-card {
