@@ -147,17 +147,17 @@ a {
   }
   
   .accommodation-info {
-    padding: 10px;
+    padding: 5px;
   }
   
   .accommodation-info h3 {
-    color: #003366; /* ou la couleur appropriée */
+    color: #000000; /* ou la couleur appropriée */
     margin: 0;
   }
   
   .accommodation-info p {
     color: #666;
-    font-weight: bold;
+    ;
   }
   
   .rating {
