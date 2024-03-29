@@ -231,7 +231,7 @@ header {
     line-height: 21px
 }
 
-/* Filter bar styles */
+/* Filter bar  */
 .filter-container {
     display: flex;
     align-items: center;
@@ -304,14 +304,14 @@ a {
     line-height: 25px;
 }
 
-/* Styles for Hebergements and Populaires sections */
+/* Hebergements and Populaires sections */
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
     gap: 40px;
 }
 
-/* Styles for Hebergements section */
+/* Hebergements section */
 .hebergements {
     box-sizing: border-box;
     padding: 30px;
@@ -358,7 +358,7 @@ a {
     padding-top: 35px;
 }
 
-/* Styles for Populaires section */
+/* Populaires section */
 .populaires {
     background-color: var(--main-bg-color);
     border-radius: 15px;
@@ -425,7 +425,7 @@ a {
     line-height: 16px
 }
 
-/* Styles for Activities section */
+/* Activities section */
 .activities {
     padding: 30px;
     gap: 30px;
@@ -470,7 +470,7 @@ a {
     height: 2.5vh;
 }
 
-/* Footer styles */
+/* Footer */
 footer {
     width: 100%;
     height: 100%;
